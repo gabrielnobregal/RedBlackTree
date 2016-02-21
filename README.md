@@ -1,4 +1,8 @@
-==Compilando e executando o projeto==
+# RedBlack Trees
+
+Este projeto realiza um estudo sobre árvores rubro-nregas. Para uma análise teórica e comportamental, verifique o relatório disponível na raiz do projeto.
+
+## Compilando e executando o projeto
 
 O projeto foi desenvolvido em linguagem C++, sendo assim será necessário a utilização
 do compilador g++. Tente executar o g++ pelo terminal, caso este não seja localizado
@@ -10,7 +14,7 @@ sudo apt-get install g++
 Com o compilador instalado o projeto pode ser compilado com o comando make
 dentro do diretório src do projeto.
 
-.../src$ make
+make
 
 O comando irá gerar o binário redblackapp dentro do diretório src. Para executa-lo utilize
 o comando:
@@ -19,16 +23,12 @@ o comando:
 
 Para eliminar todos os arquivos binários gerados no processo de compilação execute o comando:
 
-.../src$ make clear
+make clear
 
-==Parâmetros de Execução==
+## Parâmetros de Execução
+
 O aplicativo permite a passagem de apenas dois parâmetros, o arquivo de entrada e o arquivo de saída. Por exemplo, caso você queira processar as operações do arquivo entrada.txt e obter os resultados no arquivo saida.txt, execute o programa com o comando:
 
 ./redblackapp entrada.txt saida.txt 
 
 Vale ressaltar que a passagem de parâmetros é obrigatória. Não existem valores padrões para os parâmetros, caso eles sejam omitidos.
-
-==Ajuda==
-
-Qualquer duvida me contacte pelo e-mail:gabriel.nobrega.lima@gmail.com .
-
